@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-conexco-white text-conexco-navy antialiased;
+    font-family: "Poppins", system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  :focus-visible {
+    outline: 2px solid #168be5;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 sm:px-8 lg:px-16 xl:px-24;
+  }
+
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-conexco-green text-white font-semibold px-7 py-3.5 rounded-full shadow-card hover:brightness-110 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 bg-transparent border-2 border-conexco-blue text-conexco-blue font-semibold px-7 py-3.5 rounded-full hover:bg-conexco-blue hover:text-white hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300;
+  }
+
+  .btn-secondary-light {
+    @apply inline-flex items-center justify-center gap-2 bg-white/10 border border-white/25 text-white font-semibold px-7 py-3.5 rounded-full backdrop-blur-md hover:bg-white/20 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300;
+  }
+
+  .card {
+    @apply bg-white rounded-xl2 shadow-card border border-black/5;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold tracking-wide uppercase px-4 py-1.5 rounded-full;
+  }
+}
+
+/* Reduced motion respect */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

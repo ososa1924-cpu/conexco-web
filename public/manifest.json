@@ -1,0 +1,21 @@
+{
+  "name": "CONEXCO - Conexión y Control para tu negocio",
+  "short_name": "CONEXCO",
+  "description": "CONEXCO conecta bodegas, comercios y clientes. Controla ventas, inventario, fiados y mucho más desde tu celular.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D182A",
+  "theme_color": "#0D182A",
+  "icons": [
+    {
+      "src": "/assets/conexco-isotipo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/conexco-isotipo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
