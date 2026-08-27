@@ -151,11 +151,9 @@ export default function Hero() {
       id="inicio"
       className="relative bg-conexco-navy overflow-hidden pt-32 pb-20 lg:pt-44 lg:pb-28"
     >
-      {/* ambient animated background */}
       <DynamicBackground variant="hero" />
 
       <div className="container-max section-padding relative grid lg:grid-cols-2 gap-16 items-center">
-        {/* Left column */}
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
@@ -172,9 +170,9 @@ export default function Hero() {
           </h1>
 
           <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-9 max-w-xl">
-            CONEXCO conecta tu tienda con tus clientes para que vendas,
-            controles tu inventario, administres tus fiados y hagas crecer tu
-            negocio desde una sola aplicación.
+            Controla ventas, inventario, fiados y caja desde tu celular. Tus
+            clientes consultan su saldo y hacen pedidos. Todo conectado, sin
+            internet obligatorio.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-6">
@@ -187,11 +185,10 @@ export default function Hero() {
           </div>
 
           <p className="text-white/40 text-sm font-medium">
-            Disponible para Android
+            100% gratis para Android. Sin internet obligatorio.
           </p>
         </motion.div>
 
-        {/* Right column - phone mockups */}
         <div className="relative flex justify-center lg:justify-end items-center min-h-[560px]">
           <motion.div
             initial={{ opacity: 0, x: 40 }}

@@ -5,31 +5,35 @@ import Reveal from "./Reveal.jsx";
 const FAQS = [
   {
     q: "¿Qué es CONEXCO?",
-    a: "CONEXCO es una plataforma que conecta bodegas y pequeños comercios con sus clientes, con una app para el negocio (CONEXCO Tienda) y otra para sus clientes (CONEXCO Cliente).",
+    a: "CONEXCO es una plataforma que conecta bodegas y comercios con sus clientes. Incluye una app para el negocio (Tienda) y otra para los clientes (Cliente). Todo funciona sin internet.",
   },
   {
     q: "¿CONEXCO funciona sin internet?",
-    a: "Sí, CONEXCO Tienda puede trabajar incluso sin conexión a internet.",
+    a: "Sí, CONEXCO Tienda puede trabajar 100% sin conexión a internet. Los datos se guardan en tu celular. La nube es opcional para respaldos.",
+  },
+  {
+    q: "¿Cuánto cuesta?",
+    a: "CONEXCO es gratis. Puedes descargarlo y usarlo sin costos. No hay tarjetas de crédito ni suscripciones ocultas.",
   },
   {
     q: "¿Puedo controlar mis fiados?",
-    a: "Sí, puedes controlar tus fiados, registrar abonos y pagos de tus clientes.",
-  },
-  {
-    q: "¿Puedo administrar mi inventario?",
-    a: "Sí, puedes controlar productos, cantidades y categorías en tiempo real.",
+    a: "Sí, puedes controlar créditos (fiados), registrar abonos y ver el saldo de cada cliente. También puedes enviar recordatorios por WhatsApp.",
   },
   {
     q: "¿Mis clientes pueden consultar su saldo?",
-    a: "Sí, desde CONEXCO Cliente pueden consultar su saldo disponible, su crédito y su historial de compras.",
+    a: "Sí, desde CONEXCO Cliente pueden ver su saldo, historial de compras y hacer pedidos por WhatsApp. Solo necesitan escanear un QR.",
   },
   {
-    q: "¿Dónde puedo descargar la aplicación?",
-    a: "Puedes descargarla desde la sección de descarga de esta página.",
+    q: "¿Necesito una impresora?",
+    a: "No. Puedes generar comprobantes digitales y enviarlos por WhatsApp. La impresora térmica es opcional.",
   },
   {
-    q: "¿CONEXCO es gratis?",
-    a: "Estamos preparando esta información. Muy pronto estará disponible.",
+    q: "¿Mis datos están seguros?",
+    a: "Sí, los datos se guardan en tu celular. Si activas la nube, se cifran con AES-256. Nunca se comparten con terceros.",
+  },
+  {
+    q: "¿Cómo empiezo?",
+    a: "Descarga la app, configura tu negocio y empieza a registrar productos. Todo es intuitive y sin complicaciones.",
   },
 ];
 

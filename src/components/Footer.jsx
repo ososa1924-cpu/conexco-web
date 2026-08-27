@@ -23,7 +23,7 @@ export default function Footer() {
           <div>
             <Logo className="h-8" />
             <p className="text-white/40 text-sm mt-4 max-w-xs">
-              Conexión y Control para tu negocio.
+              Conexión y Control para tu negocio. La app que conecta bodegas y comercios con sus clientes.
             </p>
           </div>
 

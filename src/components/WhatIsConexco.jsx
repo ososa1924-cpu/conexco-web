@@ -18,12 +18,13 @@ export default function WhatIsConexco() {
             ¿Qué es CONEXCO?
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-conexco-navy leading-tight mb-6">
-            Más que una app. Es la conexión de tu negocio.
+            La app que conecta tu negocio con tus clientes.
           </h2>
           <p className="text-conexco-navy/60 text-lg leading-relaxed mb-8">
-            CONEXCO nace para ayudar a bodegas y pequeños comercios a
-            administrar mejor su negocio y mantener una conexión directa con
-            sus clientes.
+            CONEXCO es una plataforma diseñada para bodegas y comercios
+            independientes de Venezuela. Controla tu inventario, ventas, fiados
+            y caja desde una sola app. Y lo mejor: tus clientes pueden ver su
+            saldo y hacer pedidos desde su celular.
           </p>
           <p className="text-xl sm:text-2xl font-bold text-conexco-navy">
             Hecho para el barrio.{" "}

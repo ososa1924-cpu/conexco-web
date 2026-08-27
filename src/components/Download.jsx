@@ -8,11 +8,10 @@ export default function Download() {
       <div className="container-max section-padding">
         <Reveal className="max-w-2xl mx-auto text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-conexco-navy leading-tight mb-4">
-            Empieza a conectar tu negocio hoy.
+            Empieza a vender mejor hoy mismo.
           </h2>
           <p className="text-conexco-navy/60 text-lg">
-            Descarga CONEXCO y lleva el control de tu negocio desde tu
-            celular.
+            Descarga CONEXCO gratis. Sin tarjeta de crédito. Sin compromiso.
           </p>
         </Reveal>
 
@@ -24,9 +23,8 @@ export default function Download() {
               </div>
               <h3 className="text-xl font-bold mb-2">CONEXCO Tienda</h3>
               <p className="text-white/55 text-sm mb-7">
-                Para dueños de bodegas y comercios.
+                Para dueños de bodegas y comercios. Control total de tu negocio.
               </p>
-              {/* Reemplaza config.storeDownloadUrl en src/config.js con el enlace real del APK */}
               <a href={config.storeDownloadUrl} className="btn-primary w-full mt-auto">
                 <DownloadIcon className="w-4 h-4" />
                 Descargar APK Tienda
@@ -43,9 +41,8 @@ export default function Download() {
                 CONEXCO Cliente
               </h3>
               <p className="text-conexco-navy/55 text-sm mb-7">
-                Para clientes de comercios afiliados.
+                Para clientes de comercios afiliados. Consulta tu saldo y pedidos.
               </p>
-              {/* Reemplaza config.clientDownloadUrl en src/config.js con el enlace real del APK */}
               <a
                 href={config.clientDownloadUrl}
                 className="btn-secondary w-full mt-auto"

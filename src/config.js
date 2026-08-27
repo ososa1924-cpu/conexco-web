@@ -19,7 +19,7 @@ export const config = {
   whatsappUrl: "https://wa.me/584242377576",
 
   // Correo de soporte
-  supportEmail: "#",
+  supportEmail: "mailto:soporte@conexco.app",
 };
 
 export default config;

@@ -3,24 +3,24 @@ import Reveal from "./Reveal.jsx";
 import config from "../config.js";
 
 const STORE_ITEMS = [
-  "Gestiona productos",
-  "Registra ventas",
-  "Controla inventario",
-  "Administra fiados",
-  "Controla caja",
-  "Consulta reportes",
-  "Gestiona clientes",
-  "Crea promociones",
+  "Punto de venta con escáner",
+  "Control de inventario con fotos",
+  "Gestión de crédito (fiado)",
+  "Apertura y cierre de caja",
+  "Proveedores y compras",
+  "Reportes de ventas y ganancias",
+  "Ofertas y promociones",
+  "Comprobantes por WhatsApp",
 ];
 
 const CLIENT_ITEMS = [
-  "Consulta ofertas",
-  "Consulta tu saldo",
-  "Revisa tus compras",
-  "Consulta tus pagos",
-  "Consulta tus fiados",
-  "Realiza pedidos",
-  "Recibe notificaciones",
+  "Consulta tu saldo al día",
+  "Historial de compras y abonos",
+  "Ofertas de las tiendas",
+  "Pedidos por WhatsApp",
+  "Límite de crédito disponible",
+  "Notificaciones de saldo",
+  "Cambia de tienda fácilmente",
 ];
 
 function List({ items }) {
@@ -49,6 +49,9 @@ export default function StoreClient() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-conexco-navy leading-tight">
             Hecha para cada lado del mostrador.
           </h2>
+          <p className="text-conexco-navy/60 text-lg mt-4">
+            Una app para ti (el negocio) y otra para tus clientes. Todos conectados.
+          </p>
         </Reveal>
 
         <div className="grid lg:grid-cols-2 gap-6">
@@ -57,12 +60,15 @@ export default function StoreClient() {
               <div className="w-12 h-12 rounded-xl bg-conexco-navy flex items-center justify-center mb-6">
                 <Store className="w-6 h-6 text-white" strokeWidth={1.75} />
               </div>
-              <h3 className="text-2xl font-bold text-conexco-navy mb-6">
-                Para quienes hacen crecer el negocio.
+              <h3 className="text-2xl font-bold text-conexco-navy mb-2">
+                Para dueños de negocio
               </h3>
+              <p className="text-conexco-navy/50 text-sm mb-6">
+                Todo el control de tu bodega o comercio en una sola app.
+              </p>
               <List items={STORE_ITEMS} />
               <a href={config.storeDownloadUrl} className="btn-primary mt-auto w-full sm:w-fit">
-                Descargar versión Tienda
+                Descargar CONEXCO Tienda
               </a>
             </div>
           </Reveal>
@@ -72,15 +78,18 @@ export default function StoreClient() {
               <div className="w-12 h-12 rounded-xl bg-conexco-green flex items-center justify-center mb-6">
                 <Smartphone className="w-6 h-6 text-white" strokeWidth={1.75} />
               </div>
-              <h3 className="text-2xl font-bold text-conexco-navy mb-6">
-                Para quienes forman parte de tu comunidad.
+              <h3 className="text-2xl font-bold text-conexco-navy mb-2">
+                Para clientes
               </h3>
+              <p className="text-conexco-navy/50 text-sm mb-6">
+                Consulta tu saldo, historial y haz pedidos desde tu celular.
+              </p>
               <List items={CLIENT_ITEMS} />
               <a
                 href={config.clientDownloadUrl}
                 className="btn-secondary mt-auto w-full sm:w-fit"
               >
-                Descargar versión Cliente
+                Descargar CONEXCO Cliente
               </a>
             </div>
           </Reveal>

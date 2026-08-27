@@ -5,26 +5,26 @@ const STEPS = [
   {
     number: "01",
     icon: Store,
-    title: "Registra tu tienda",
-    desc: "Crea tu cuenta y configura tu negocio.",
+    title: "Descarga y configura",
+    desc: "Instala la app, crea tu negocio y empieza a registrar productos en minutos.",
   },
   {
     number: "02",
     icon: UserPlus,
-    title: "Invita a tus clientes",
-    desc: "Comparte CONEXCO con tus clientes.",
+    title: "Conecta con clientes",
+    desc: "Genera un QR para cada cliente. Ellos escanean y ven su saldo al instante.",
   },
   {
     number: "03",
     icon: ShoppingCart,
-    title: "Vende y administra",
-    desc: "Controla ventas, inventario, caja y fiados.",
+    title: "Vende y controla",
+    desc: "Registra ventas, cobra, controla inventario y administra fiados desde tu celular.",
   },
   {
     number: "04",
     icon: TrendingUp,
-    title: "Haz crecer tu comunidad",
-    desc: "Tus clientes pueden consultar ofertas, pedidos y saldos.",
+    title: "Haz crecer tu negocio",
+    desc: "Consulta reportes, crea ofertas y fideliza a tu comunidad de clientes.",
   },
 ];
 
@@ -37,12 +37,14 @@ export default function HowItWorks() {
             Cómo funciona
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-conexco-navy leading-tight">
-            Cuatro pasos y tu negocio está conectado.
+            En 4 pasos, tu negocio está conectado.
           </h2>
+          <p className="text-conexco-navy/60 text-lg mt-4">
+            Sin complicaciones. Sin permisos difíciles. Solo descarga y empieza.
+          </p>
         </Reveal>
 
         <div className="relative grid sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-14">
-          {/* connecting line, desktop only */}
           <div className="hidden lg:block absolute top-7 left-[12.5%] right-[12.5%] h-px bg-conexco-navy/10" />
 
           {STEPS.map(({ number, icon: Icon, title, desc }, i) => (

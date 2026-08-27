@@ -4,28 +4,28 @@ import Reveal from "./Reveal.jsx";
 const BENEFITS = [
   {
     icon: TrendingUp,
-    title: "Más ventas",
-    desc: "Ofrece promociones y fideliza clientes.",
+    title: "Vende más",
+    desc: "Ofrece promociones, fideliza clientes y aumenta tus ventas con datos reales.",
   },
   {
     icon: ShieldCheck,
     title: "Menos errores",
-    desc: "Controla tus ventas e inventario.",
+    desc: "Olvídate de cuadernos y hojas de cálculo. Todo se registra automáticamente.",
   },
   {
     icon: Clock,
-    title: "Más tiempo",
-    desc: "Automatiza tareas repetitivas.",
+    title: "Ahorra tiempo",
+    desc: "Genera comprobantes en segundos y envíalos por WhatsApp al instante.",
   },
   {
     icon: Gauge,
-    title: "Más control",
-    desc: "Ten tus números siempre disponibles.",
+    title: "Control total",
+    desc: "Ventas, inventario, caja y crédito siempre al día. Sin sorpresas.",
   },
   {
     icon: Users,
-    title: "Más comunidad",
-    desc: "Conecta directamente con tus clientes.",
+    title: "Más cercanía",
+    desc: "Tus clientes consultan su saldo y hacen pedidos desde su celular.",
   },
 ];
 
@@ -40,6 +40,9 @@ export default function Benefits() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-conexco-navy leading-tight">
             Menos problemas. Más control. Más crecimiento.
           </h2>
+          <p className="text-conexco-navy/60 text-lg mt-4">
+            CONEXCO está pensado para que te enfoques en lo importante: vender y crecer.
+          </p>
         </Reveal>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">

@@ -14,42 +14,42 @@ const FEATURES = [
   {
     icon: ScanLine,
     title: "Punto de venta",
-    desc: "Registra tus ventas de forma rápida y sencilla.",
+    desc: "Vende rápido con escáner de código de barras. Pago mixto: efectivo, transferencia y crédito.",
   },
   {
     icon: Boxes,
-    title: "Inventario",
-    desc: "Controla productos, cantidades y categorías en tiempo real.",
+    title: "Inventario completo",
+    desc: "Productos con fotos, precios, stock y alertas de stock bajo. Nunca te quedes sin mercancía.",
   },
   {
     icon: HandCoins,
-    title: "Fiados",
-    desc: "Mantén el control de las cuentas pendientes de tus clientes.",
+    title: "Crédito (fiado)",
+    desc: "Controla quién te debe, cuánto y desde cuándo. Envía recordatorios por WhatsApp.",
   },
   {
     icon: Wallet,
-    title: "Caja",
-    desc: "Consulta movimientos y controla el dinero de tu negocio.",
+    title: "Control de caja",
+    desc: "Apertura y cierre de caja con registro de cada movimiento. Dinero siempre cuadrado.",
   },
   {
     icon: Users,
-    title: "Clientes",
-    desc: "Administra tus clientes y conoce mejor tu comunidad.",
+    title: "Base de clientes",
+    desc: "Cada cliente con su saldo, límite de crédito e historial de compras.",
   },
   {
     icon: BarChart3,
     title: "Reportes",
-    desc: "Consulta ventas, ganancias y movimientos de tu negocio.",
+    desc: "Ventas, ganancias, categorías y productos más vendidos. Decisiones con datos reales.",
   },
   {
     icon: Tag,
-    title: "Ofertas",
-    desc: "Crea promociones para atraer más clientes.",
+    title: "Ofertas y promociones",
+    desc: "Crea ofertas con fecha de vencimiento. Tus clientes las ven desde su app.",
   },
   {
     icon: ShieldCheck,
-    title: "Respaldo",
-    desc: "Mantén tu información segura y respaldada.",
+    title: "Respaldo seguro",
+    desc: "Copia de seguridad cifrada en tu celular. Tus datos siempre protegidos.",
   },
 ];
 
@@ -62,8 +62,11 @@ export default function Features() {
             Funciones
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-conexco-navy leading-tight">
-            Todo tu negocio, en un solo lugar.
+            Todo lo que necesitas para vender más y mejor.
           </h2>
+          <p className="text-conexco-navy/60 text-lg mt-4">
+            Herramientas pensadas para bodegas y comercios de barrio que quieren organizarse sin complicaciones.
+          </p>
         </Reveal>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
