@@ -7,12 +7,10 @@
 
 export const config = {
   // Enlace de descarga del APK de CONEXCO TIENDA
-  // Sube el APK a Google Drive → Compartir → Copiar enlace
-  // Reemplaza el ID del archivo: https://drive.google.com/uc?export=download&id=ID_DEL_ARCHIVO
-  storeDownloadUrl: "https://drive.google.com/uc?export=download&id=TU_ID_TIENDA",
+  storeDownloadUrl: "https://drive.google.com/uc?export=download&id=1mg95FCbH0VzI2Hu8yscuP2e-J6FuQGQJ",
 
   // Enlace de descarga del APK de CONEXCO CLIENTE
-  clientDownloadUrl: "https://drive.google.com/uc?export=download&id=TU_ID_CLIENTE",
+  clientDownloadUrl: "https://drive.google.com/uc?export=download&id=1aA35MM-P8yJaNobWTvHGUdKQMdE62iZt",
 
   // Número de contacto (se muestra en la sección de Soporte)
   supportPhone: "0424-237.7576",
