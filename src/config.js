@@ -21,3 +21,5 @@ export const config = {
   // Correo de soporte
   supportEmail: "mailto:soporte@conexco.app",
 };
+
+export default config;
