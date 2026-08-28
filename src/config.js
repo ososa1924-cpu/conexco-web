@@ -1,18 +1,18 @@
 // ============================================================
-// CONFIGURACIÓN GENERAL DE CONEXCO
+// CONFIGURACION GENERAL DE CONEXCO
 // ------------------------------------------------------------
-// Cambia aquí los enlaces reales cuando los tengas disponibles.
-// No necesitas tocar ningún otro archivo del proyecto.
+// Cambia aqui los enlaces reales cuando los tengas disponibles.
+// No necesitas tocar ningun otro archivo del proyecto.
 // ============================================================
 
 export const config = {
   // Enlace de descarga del APK de CONEXCO TIENDA
-  storeDownloadUrl: "https://drive.google.com/uc?export=download&id=1mg95FCbH0VzI2Hu8yscuP2e-J6FuQGQJ",
+  storeDownloadUrl: "https://github.com/ososa1924-cpu/conexco/releases/download/v2.2/CONEXCO_Tienda_v2.2.apk",
 
   // Enlace de descarga del APK de CONEXCO CLIENTE
-  clientDownloadUrl: "https://drive.google.com/uc?export=download&id=1aA35MM-P8yJaNobWTvHGUdKQMdE62iZt",
+  clientDownloadUrl: "https://github.com/ososa1924-cpu/conexco/releases/download/v2.1/conexco_cliente.apk",
 
-  // Número de contacto (se muestra en la sección de Soporte)
+  // Numero de contacto (se muestra en la seccion de Soporte)
   supportPhone: "0424-237.7576",
 
   // Enlace de WhatsApp de soporte
