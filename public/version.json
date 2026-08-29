@@ -1,5 +1,5 @@
 {
-    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.3/conexco-release.apk",
-    "changelog":   "Bottom nav compacto, logo en AppBar, opcion Ya tengo cuenta, fix teclado POS, AppBars sin duplicar.",
-    "version":   "2.3.0"
+    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.4/conexco-release.apk",
+    "changelog":   "APK firmado con release keys. Seguridad: fixes de auditoría + privilege escalation tests.",
+    "version":   "2.4.0"
 }

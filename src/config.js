@@ -7,7 +7,7 @@
 
 export const config = {
   // Enlace de descarga del APK de CONEXCO TIENDA
-  storeDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.3/conexco-release.apk",
+  storeDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.4/conexco-release.apk",
 
   // Enlace de descarga del APK de CONEXCO CLIENTE
   clientDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.1/app-release.apk",
