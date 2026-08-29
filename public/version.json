@@ -1,5 +1,5 @@
 {
-    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.4/conexco-release.apk",
-    "changelog":   "APK firmado con release keys. Seguridad: fixes de auditoría + privilege escalation tests.",
-    "version":   "2.4.0"
+    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.4.1/conexco-release.apk",
+    "changelog":   "Fix: la nube ya no se queda cargando al iniciar. Timeouts en licencia.",
+    "version":   "2.4.1"
 }
