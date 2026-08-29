@@ -1,5 +1,5 @@
 {
-    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.1/app-release.apk",
-    "changelog":   "App Cliente CONEXCO: saldo, historial, ofertas, WhatsApp.",
-    "version":   "2.1.0"
+    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.2-cliente/app-release.apk",
+    "changelog":   "APK firmado con release keys. Misma firma que la Tienda.",
+    "version":   "2.2.0"
 }
