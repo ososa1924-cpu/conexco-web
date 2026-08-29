@@ -43,10 +43,15 @@ export default function Download() {
               <p className="text-conexco-navy/55 text-sm mb-7">
                 Para clientes de comercios afiliados. Consulta tu saldo y pedidos.
               </p>
-              <span className="btn-secondary w-full mt-auto opacity-60 cursor-not-allowed">
+              <a
+                href={config.clientDownloadUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary w-full mt-auto"
+              >
                 <DownloadIcon className="w-4 h-4" />
-                Próximamente
-              </span>
+                Descargar APK Cliente
+              </a>
             </div>
           </Reveal>
         </div>

@@ -10,7 +10,7 @@ export const config = {
   storeDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.3/conexco-release.apk",
 
   // Enlace de descarga del APK de CONEXCO CLIENTE
-  clientDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.1/conexco_cliente.apk",
+  clientDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.1/app-release.apk",
 
   // Numero de contacto (se muestra en la seccion de Soporte)
   supportPhone: "0424-237.7576",
