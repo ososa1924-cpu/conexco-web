@@ -25,7 +25,7 @@ export default function Download() {
               <p className="text-white/55 text-sm mb-7">
                 Para dueños de bodegas y comercios. Control total de tu negocio.
               </p>
-              <a href={config.storeDownloadUrl} className="btn-primary w-full mt-auto">
+              <a href={config.storeDownloadUrl} target="_blank" rel="noopener noreferrer" className="btn-primary w-full mt-auto">
                 <DownloadIcon className="w-4 h-4" />
                 Descargar APK Tienda
               </a>
@@ -43,13 +43,10 @@ export default function Download() {
               <p className="text-conexco-navy/55 text-sm mb-7">
                 Para clientes de comercios afiliados. Consulta tu saldo y pedidos.
               </p>
-              <a
-                href={config.clientDownloadUrl}
-                className="btn-secondary w-full mt-auto"
-              >
+              <span className="btn-secondary w-full mt-auto opacity-60 cursor-not-allowed">
                 <DownloadIcon className="w-4 h-4" />
-                Descargar APK Cliente
-              </a>
+                Próximamente
+              </span>
             </div>
           </Reveal>
         </div>
