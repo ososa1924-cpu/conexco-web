@@ -1,5 +1,5 @@
 {
-    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.4.1/app-release.apk",
+    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.4.2/app-debug.apk",
     "changelog":   "Fix: la nube ya no se queda cargando al iniciar. Timeouts en licencia.",
-    "version":   "2.4.1"
+    "version":   "2.4.2"
 }
