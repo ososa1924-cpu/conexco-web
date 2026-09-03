@@ -1,4 +1,4 @@
-import { Store, Smartphone, Download as DownloadIcon } from "lucide-react";
+import { Store, Smartphone, Monitor, Download as DownloadIcon } from "lucide-react";
 import Reveal from "./Reveal.jsx";
 import config from "../config.js";
 
@@ -15,7 +15,7 @@ export default function Download() {
           </p>
         </Reveal>
 
-        <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <Reveal>
             <div className="rounded-xl2 bg-conexco-navy p-8 text-center text-white h-full flex flex-col items-center">
               <div className="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center mb-5">
@@ -28,6 +28,29 @@ export default function Download() {
               <a href={config.storeDownloadUrl} target="_blank" rel="noopener noreferrer" className="btn-primary w-full mt-auto">
                 <DownloadIcon className="w-4 h-4" />
                 Descargar APK Tienda
+              </a>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.1}>
+            <div className="rounded-xl2 bg-conexco-gray p-8 text-center h-full flex flex-col items-center border border-black/5">
+              <div className="w-14 h-14 rounded-2xl bg-conexco-blue/10 flex items-center justify-center mb-5">
+                <Monitor className="w-7 h-7 text-conexco-blue" />
+              </div>
+              <h3 className="text-xl font-bold text-conexco-navy mb-2">
+                CONEXCO PC Tienda
+              </h3>
+              <p className="text-conexco-navy/55 text-sm mb-7">
+                Misma app pero para tu computadora. Windows 10/11.
+              </p>
+              <a
+                href={config.storeWindowsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary w-full mt-auto"
+              >
+                <DownloadIcon className="w-4 h-4" />
+                Descargar para PC
               </a>
             </div>
           </Reveal>

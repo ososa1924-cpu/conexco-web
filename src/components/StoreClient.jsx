@@ -67,9 +67,14 @@ export default function StoreClient() {
                 Todo el control de tu bodega o comercio en una sola app.
               </p>
               <List items={STORE_ITEMS} />
-              <a href={config.storeDownloadUrl} className="btn-primary mt-auto w-full sm:w-fit">
-                Descargar CONEXCO Tienda
-              </a>
+              <div className="flex flex-col sm:flex-row gap-3 mt-auto">
+                <a href={config.storeDownloadUrl} className="btn-primary w-full sm:w-fit">
+                  Descargar CONEXCO Tienda
+                </a>
+                <a href={config.storeWindowsUrl} className="btn-secondary w-full sm:w-fit">
+                  Descargar para PC
+                </a>
+              </div>
             </div>
           </Reveal>
 

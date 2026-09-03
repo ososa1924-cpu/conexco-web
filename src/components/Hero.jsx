@@ -179,13 +179,13 @@ export default function Hero() {
             <a href={config.storeDownloadUrl} className="btn-primary">
               Descargar CONEXCO Tienda
             </a>
-            <a href="#tienda-cliente" className="btn-secondary-light">
-              Soy cliente
+            <a href={config.storeWindowsUrl} className="btn-secondary-light">
+              Descargar para PC
             </a>
           </div>
 
           <p className="text-white/40 text-sm font-medium">
-            100% gratis para Android. Sin internet obligatorio.
+            100% gratis. Android y Windows. Sin internet obligatorio.
           </p>
         </motion.div>
 
