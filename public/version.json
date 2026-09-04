@@ -1,5 +1,5 @@
 {
-    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.7/conexco-tienda-v2.7.apk",
-    "changelog":   "Setup simplificado, multi-vendedores, instalador Windows.",
-    "version":   "2.7"
+    "download_url":  "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.8/conexco-tienda-v2.8.apk",
+    "changelog":   "BD cifrada con SQLCipher, instalador Windows corregido.",
+    "version":   "2.8"
 }
