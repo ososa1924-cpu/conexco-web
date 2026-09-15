@@ -10,7 +10,7 @@ export const config = {
   storeDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.9.0/conexco-tienda-v2.9.0.apk",
 
   // Enlace de descarga de CONEXCO TIENDA para Windows (PC)
-  storeWindowsUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.9.0/conexco-pc-v2.9.0.zip",
+  storeWindowsUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.9.0/CONEXCO-Setup-v2.9.0.exe",
 
   // Enlace de descarga del APK de CONEXCO CLIENTE
   clientDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.9.0/conexco-cliente-v2.9.0.apk",
