@@ -1,4 +1,4 @@
-import { Store, Smartphone, Monitor, Download as DownloadIcon } from "lucide-react";
+import { Store, Smartphone, Monitor, MessageCircle } from "lucide-react";
 import Reveal from "./Reveal.jsx";
 import config from "../config.js";
 
@@ -11,7 +11,7 @@ export default function Download() {
             Empieza a vender mejor hoy mismo.
           </h2>
           <p className="text-conexco-navy/60 text-lg">
-            Descarga CONEXCO gratis. Sin tarjeta de crédito. Sin compromiso.
+            Solicita CONEXCO por WhatsApp. Te enviamos la app sin costo.
           </p>
         </Reveal>
 
@@ -26,8 +26,8 @@ export default function Download() {
                 Para dueños de bodegas y comercios. Control total de tu negocio.
               </p>
               <a href={config.storeDownloadUrl} target="_blank" rel="noopener noreferrer" className="btn-primary w-full mt-auto">
-                <DownloadIcon className="w-4 h-4" />
-                Descargar APK Tienda
+                <MessageCircle className="w-4 h-4" />
+                Solicitar por WhatsApp
               </a>
             </div>
           </Reveal>
@@ -49,8 +49,8 @@ export default function Download() {
                 rel="noopener noreferrer"
                 className="btn-secondary w-full mt-auto"
               >
-                <DownloadIcon className="w-4 h-4" />
-                Descargar para PC
+                <MessageCircle className="w-4 h-4" />
+                Solicitar por WhatsApp
               </a>
             </div>
           </Reveal>
@@ -72,8 +72,8 @@ export default function Download() {
                 rel="noopener noreferrer"
                 className="btn-secondary w-full mt-auto"
               >
-                <DownloadIcon className="w-4 h-4" />
-                Descargar APK Cliente
+                <MessageCircle className="w-4 h-4" />
+                Solicitar por WhatsApp
               </a>
             </div>
           </Reveal>

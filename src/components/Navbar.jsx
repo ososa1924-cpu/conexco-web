@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Menu, X, Download } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import Logo from "./Logo.jsx";
 
 const LINKS = [
@@ -54,8 +54,8 @@ export default function Navbar() {
         </ul>
 
         <a href="#descarga" className="hidden lg:inline-flex btn-primary !py-2.5 !px-5 text-sm">
-          <Download className="w-4 h-4" />
-          Descargar app
+          <MessageCircle className="w-4 h-4" />
+          Solicitar app
         </a>
 
         <button
@@ -91,8 +91,8 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
             className="btn-primary mt-6 w-full"
           >
-            <Download className="w-4 h-4" />
-            Descargar app
+            <MessageCircle className="w-4 h-4" />
+            Solicitar app
           </a>
         </div>
       </div>

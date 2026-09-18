@@ -1,4 +1,4 @@
-import { Check, Store, Smartphone } from "lucide-react";
+import { Check, Store, Smartphone, MessageCircle } from "lucide-react";
 import Reveal from "./Reveal.jsx";
 import config from "../config.js";
 
@@ -68,11 +68,13 @@ export default function StoreClient() {
               </p>
               <List items={STORE_ITEMS} />
               <div className="flex flex-col sm:flex-row gap-3 mt-auto">
-                <a href={config.storeDownloadUrl} className="btn-primary w-full sm:w-fit">
-                  Descargar CONEXCO Tienda
+                <a href={config.storeDownloadUrl} target="_blank" rel="noopener noreferrer" className="btn-primary w-full sm:w-fit">
+                  <MessageCircle className="w-4 h-4" />
+                  Solicitar por WhatsApp
                 </a>
-                <a href={config.storeWindowsUrl} className="btn-secondary w-full sm:w-fit">
-                  Descargar para PC
+                <a href={config.storeWindowsUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary w-full sm:w-fit">
+                  <MessageCircle className="w-4 h-4" />
+                  Solicitar para PC
                 </a>
               </div>
             </div>
@@ -92,9 +94,12 @@ export default function StoreClient() {
               <List items={CLIENT_ITEMS} />
               <a
                 href={config.clientDownloadUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-secondary mt-auto w-full sm:w-fit"
               >
-                Descargar CONEXCO Cliente
+                <MessageCircle className="w-4 h-4" />
+                Solicitar por WhatsApp
               </a>
             </div>
           </Reveal>

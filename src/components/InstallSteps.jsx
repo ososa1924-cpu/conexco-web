@@ -1,16 +1,17 @@
-import { AlertTriangle, Download, Smartphone, CheckCircle } from "lucide-react";
+import { MessageCircle, Smartphone, CheckCircle } from "lucide-react";
 import Reveal from "./Reveal.jsx";
+import config from "../config.js";
 
 const STEPS = [
   {
-    icon: Download,
-    title: "Descarga",
-    desc: "Toca el botón de descarga y espera a que se descargue el APK.",
+    icon: MessageCircle,
+    title: "Solicita",
+    desc: "Escríbenos por WhatsApp y te enviamos la app sin costo.",
   },
   {
     icon: Smartphone,
     title: "Instala",
-    desc: "Abre el archivo y permite la instalación si Android lo solicita.",
+    desc: "Abre el archivo APK y permite la instalación si Android lo solicita.",
   },
   {
     icon: CheckCircle,
@@ -25,7 +26,7 @@ export default function InstallSteps() {
       <div className="container-max section-padding max-w-3xl mx-auto">
         <Reveal className="text-center mb-12">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-conexco-navy">
-            ¿Cómo instalar CONEXCO?
+            ¿Cómo obtener CONEXCO?
           </h2>
           <p className="text-conexco-navy/60 text-lg mt-4">
             En 3 simples pasos tienes tu negocio conectado.
@@ -52,17 +53,16 @@ export default function InstallSteps() {
         </Reveal>
 
         <Reveal delay={0.2}>
-          <div className="flex items-start gap-3 bg-amber-50 border border-amber-200 rounded-xl p-4">
-            <AlertTriangle className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
-            <div>
-              <p className="text-sm text-amber-800 font-medium mb-1">
-                ¿No se instala?
-              </p>
-              <p className="text-sm text-amber-700 leading-relaxed">
-                Ve a Configuración → Seguridad → Instalar apps desconocidas y
-                activa "Permitir desde esta fuente" para tu navegador o explorador.
-              </p>
-            </div>
+          <div className="text-center">
+            <a
+              href={config.whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-flex"
+            >
+              <MessageCircle className="w-4 h-4" />
+              WhatsApp directo
+            </a>
           </div>
         </Reveal>
       </div>

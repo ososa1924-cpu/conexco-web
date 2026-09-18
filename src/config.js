@@ -6,14 +6,14 @@
 // ============================================================
 
 export const config = {
-  // Enlace de descarga del APK de CONEXCO TIENDA
-  storeDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.9.0/conexco-tienda-v2.9.0.apk",
+  // Enlace de solicitud de app via WhatsApp
+  storeDownloadUrl: "https://wa.me/584242377576?text=Hola%2C%20quiero%20CONEXCO%20Tienda%20para%20mi%20bodega.",
 
-  // Enlace de descarga de CONEXCO TIENDA para Windows (PC)
-  storeWindowsUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.9.0/CONEXCO-Setup-v2.9.0.exe",
+  // Enlace de solicitud de CONEXCO PC via WhatsApp
+  storeWindowsUrl: "https://wa.me/584242377576?text=Hola%2C%20quiero%20CONEXCO%20PC%20para%20mi%20computadora.",
 
-  // Enlace de descarga del APK de CONEXCO CLIENTE
-  clientDownloadUrl: "https://github.com/ososa1924-cpu/conexco-apk/releases/download/v2.9.0/conexco-cliente-v2.9.0.apk",
+  // Enlace de solicitud de CONEXCO Cliente via WhatsApp
+  clientDownloadUrl: "https://wa.me/584242377576?text=Hola%2C%20quiero%20la%20app%20CONEXCO%20Cliente.",
 
   // Numero de contacto (se muestra en la seccion de Soporte)
   supportPhone: "0424-237.7576",

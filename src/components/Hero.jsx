@@ -8,6 +8,7 @@ import {
   BarChart3,
   Users,
   PackageCheck,
+  MessageCircle,
 } from "lucide-react";
 import config from "../config.js";
 import DynamicBackground from "./DynamicBackground.jsx";
@@ -176,16 +177,18 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-6">
-            <a href={config.storeDownloadUrl} className="btn-primary">
-              Descargar CONEXCO Tienda
+            <a href={config.storeDownloadUrl} target="_blank" rel="noopener noreferrer" className="btn-primary">
+              <MessageCircle className="w-4 h-4" />
+              Solicitar CONEXCO Tienda
             </a>
-            <a href={config.storeWindowsUrl} className="btn-secondary-light">
-              Descargar para PC
+            <a href={config.storeWindowsUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary-light">
+              <MessageCircle className="w-4 h-4" />
+              Solicitar para PC
             </a>
           </div>
 
           <p className="text-white/40 text-sm font-medium">
-            100% gratis. Android y Windows. Sin internet obligatorio.
+            Enviamos la app por WhatsApp. Android y Windows.
           </p>
         </motion.div>
 
