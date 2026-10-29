@@ -1,5 +1,5 @@
 {
     "download_url": "https://wa.me/584242377576?text=Hola%2C%20quiero%20CONEXCO%20Tienda.",
-    "changelog": "v2.10.0: Seguridad (biometría, bloqueo, auditoría), chat IA, sistema de fidelidad, modo oscuro.",
-    "version": "2.10.0"
+    "changelog": "v2.11.0: caja y fiado corregidos (los abonos entran a la caja), canje de puntos real, respaldo cifrado por correo o archivo, QR de cliente que ya no caduca, sincronización más segura y app más rápida.",
+    "version": "2.11.0"
 }
